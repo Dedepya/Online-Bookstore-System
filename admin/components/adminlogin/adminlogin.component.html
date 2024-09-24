@@ -1,0 +1,24 @@
+
+<div class="adminlogin">
+<mat-card class="align_card">
+    <mat-card-content>
+    <h2>Admin Login</h2>
+    <form [formGroup]="AdminLoginForm">
+        <div>
+        <mat-form-field>
+            <mat-label>Username</mat-label>
+            <input matInput formControlName="userName" placeholder="userName" class="userName">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field>
+            <mat-label>password</mat-label>
+            <input matInput formControlName="password" placeholder="password" class="password">
+        </mat-form-field>
+    </div>
+    <div><button mat-raised-button color="primary" (click)="submit()">Submit</button></div>
+    <br>
+    </form>
+</mat-card-content>
+</mat-card>
+</div>
