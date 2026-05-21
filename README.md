@@ -1,6 +1,5 @@
 # OnlineBookStore_SE
- Group Project
-We have developed code with Angular as FrontEnd and Java as Backend.
+
 Front End :-
 Navigate to the folder FrontEnd 
 install node JS. Use Visual studio code preferred to edit the code
